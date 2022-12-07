@@ -1,5 +1,55 @@
-Hi,
+Hello,
 
-This is my repository for personal projects and such
+This is my repository for personal projects and such. Feel free to download and check out my work.
 
-Feel free to browse and check out my work
+The following is a short description of the files contained here:
+----------------------------------------------------------------------------
+*DungeonApp*
+
+  An interactive game played through the terminal
+  In this game, you play as a hero who finds himself trapped in a dungeon. You must navigate the dungeon and fight the boss to escape
+  This game started as a personal exercise in object-oriented programming and scalability, and will continue to be added to as I learn more skills
+  
+  Features:
+    A combat system consisting of a boss fight and 4 randomly generated monster spawns
+    An item system consisting of an inventory and randomly generated item spawns, as well as equipable weapons
+    Randomly generated stats for all entities, including the hero you play
+    And more!
+    
+  Future plans:
+    Port the game to Python and implement a basic visual framework - status: in progress
+    Rebalance and enhance the combat system with more items and weapons
+  
+  To play:
+    Unzip the folder and navigate to it in the terminal
+    compile the classes using
+      javac *.java
+    type in
+      java DungeonApp
+----------------------------------------------------------------------------
+*NBody*
+
+  A visual representation of the classic 'N' Body simulation, mimicking the gravitional attraction between a certain number of stars
+  Each time the program is run, a random number of stars with random colors and random velocities are generated
+  The program takes the integer argument n, where n is the number of planetary bodies you would like to simulate
+  
+  To use:
+    compile the program using
+      javac NBody.java
+    run the program, ensuring you input an argument integer
+      java NBody n
+----------------------------------------------------------------------------
+*Sierpinksi*
+
+  A Sierpiński triangle is a continually recursive triangle, subdividing into smaller triangles the deeper you go
+  This one was a personal exercise in recursive code and AWT/Swing implementation
+  
+  To use:
+    compile the program using
+      javac Sierpinksi.java
+    run the program, ensuring you input an argument integer
+      java Sierpinski
+ ----------------------------------------------------------------------------
+ 
+ More will be added in the future as I continue to work on more projects!
+      
