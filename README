@@ -8,7 +8,7 @@ The following is a short description of the files contained here:
 
   An interactive game played through the terminal
   In this game, you play as a hero who finds himself trapped in a dungeon. You must navigate the dungeon and fight the boss to escape
-  This game started as a personal exercise in object-oriented programming and scalability, and will continue to be updated as I learn more
+  This game was a personal exercise in object-oriented programming and scalability, and will continue to be updated as I learn more
   
   Features:
     A combat system consisting of a boss fight and 4 randomly generated monster spawns
