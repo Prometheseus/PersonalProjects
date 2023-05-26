@@ -27,6 +27,21 @@ The following is a short description of the files contained here:
     type in
       java DungeonApp
 ----------------------------------------------------------------------------
+*myMalloc*
+
+  A program that simulates the memory management of C’s malloc() function
+  Creates an array that data can be stored in and manages the memory through a linked list-type structure that is also stored in the array
+  myMalloc() returns a pointer to a location in memory where a client can store data, just like the malloc() function
+  myFree() frees a pointer that has been obtained by myMalloc() and coalesces the newly free memory space with nearby empty memory chunks
+  Serves as an exercise in low-level memory manipulation and computer architecture
+----------------------------------------------------------------------------
+*myShell*
+
+  A program that simulates the workings of a Unix shell script
+  Parses input, creates child processes, and more!
+  Includes code for piping, input/output redirection, escape sequences, and home directories
+  Serves as an exercise in systems programming and operating system design
+----------------------------------------------------------------------------
 *NBody*
 
   A visual representation of the classic 'N' Body simulation, mimicking the gravitional attraction between a certain number of stars
@@ -39,17 +54,6 @@ The following is a short description of the files contained here:
     run the program, ensuring you input an argument integer
       java NBody n
 ----------------------------------------------------------------------------
-*Sierpinksi*
-
-  A Sierpiński triangle is a continually recursive triangle, subdividing into smaller triangles the deeper you go
-  This one was a personal exercise in recursive code and AWT/Swing implementation
-  
-  To use:
-    compile the program using
-      javac Sierpinksi.java
-    run the program, ensuring you input an argument integer
-      java Sierpinski n
- ----------------------------------------------------------------------------
  
  More will be added in the future as I continue to work on more projects!
       
