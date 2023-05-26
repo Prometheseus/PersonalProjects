@@ -30,9 +30,9 @@ The following is a short description of the files contained here:
 *myMalloc*
 
   A program that simulates the memory management of C’s malloc() function
-  Creates an array that data can be stored in and manages the memory through a linked list-type structure that is also stored in the array
+  Creates an array that data can be stored in and manages the memory through a linked list that is also stored in the array
   myMalloc() returns a pointer to a location in memory where a client can store data, just like the malloc() function
-  myFree() frees a pointer that has been obtained by myMalloc() and coalesces the newly free memory space with nearby empty memory chunks
+  myFree() frees a pointer that has been obtained by myMalloc() and coalesces the newly freed memory space with adjacent free memory
   Serves as an exercise in low-level memory manipulation and computer architecture
 ----------------------------------------------------------------------------
 *myShell*
